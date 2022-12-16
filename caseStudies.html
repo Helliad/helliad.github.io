@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Project HeartCode - Schizophrenia (Case Studies)</title>
+        <link rel="icon" type="image/x-icon" href="assets/favheart.ico" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            body {
+    font: 120% / 1.5 Arial;
+    overflow-y: hidden;
+  }
+ 
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+  }
+ 
+  h1, p {
+    margin-bottom: 1.5em;
+    text-shadow: 2px 1px black;
+  }
+  .nav {
+    position: fixed;
+    z-index: 100;
+    bottom: 1em;
+    padding: 1em 5em 0 5em;
+    width: 100%;
+    display: none;
+    margin: auto;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .nav li {
+    flex: 1;
+    display: inline-block;
+    list-style: none;
+    margin: .5em;
+  }
+  .nav a {
+    display: block;
+    padding: .5em 1em;
+    color: #fff;
+    border-radius: 3px;
+    background: rgba(0,0,0,.6);
+    text-align: center;
+  }
+  .nav a:not(:hover) {
+    text-decoration: none;
+  }
+ 
+  .acto {
+    position: relative;
+    padding: 8% 0;
+  }
+  .acto__contenedor {
+    max-width: 1200px;
+    margin: 200px;
+    color: white;
+ 
+  }
+ 
+  .acto__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+ 
+ 
+ 
+  #acto-1 {
+    background-image: url(./city.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }  
+  #acto-2  {
+    background-image: url(./face.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  #acto-3 {
+    background-image: url(./street.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  /* #acto-4{
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  } */
+  #acto-5 {
+    background-image: url('/Schizophrenia/face.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #acto-6{
+    background-image: url('/Schizophrenia/stats.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+ 
+  @media screen and (min-width: 45em) {
+    .nav {
+      display: flex;
+    }
+    /* horizontal scroll styles */
+    html, body {
+      height: 100%;
+    }
+    .actos {
+      white-space: nowrap;
+      height: 100%;
+    }
+    .acto {
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      vertical-align: middle;
+      white-space: normal;
+      margin-right:-.3em;
+    }
+    .acto__contentedor {
+      height: auto;
+    }
+    .actos {
+        position: absolute;
+        overflow-x: auto;
+        overflow-y: auto;
+        perspective: 300px;
+        scroll-behavior: smooth;
+        width: 100%;
+    }
+ 
+  }
+        </style>
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    </head>
+    <main class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html">Project HeartCode - Schizophrenia</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="caseStudies.html">Case Studies</a></li>
+                            <li class="nav-item"><a class="nav-link" href="faqHelplines.html">FAQ & Helplines</a></li>  
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </main>
+        <div class="actos">
+ 
+            <section class="acto" id="acto-1">
+                <div class="acto__bg"></div>
+                    <div class="acto__contenedor">
+                        <div class="acto__texto">
+                            <h1 id="acto-1-Titulo">Do Patients with Schizophrenia Ever Show Periods of Recovery? A 15-Year Multi-Follow-up Study</h1>
+                            <p>Published in 2005, psychologist Martin Harrow of the University of Illinois College of Medicine and his colleagues followed schizophreinic patients over 15 years. Results show Schizophrenia is not beyond cure.</p>
+                        </div>
+                    </div>
+            </section>
+         
+            <section class="acto" id="acto-2">
+                <div class="acto__bg"></div>
+                    <div class="acto__contenedor">
+                        <div class="acto__texto">
+                            <h1>Struggles of Schizophrenia</h1>
+                            <p>Most schizophreinic patients are believed to be unable to function in their day to day lives, so as to live independently and provide for themselves.</p>
+                        </div>
+                    </div>
+            </section>
+         
+              <section class="acto" id="acto-3">
+                <div class="acto__bg"></div>
+                <div class="acto__contenedor">
+                  <div class="acto__texto">
+                    <div class="container">
+                    <div class="row">
+                    <div class="col">
+                    <img src="./stats.JPG" class="center"style=" width:50%; height:50%;" alt="research paper table">
+                    <h1 class="col"> Proof of recovery</h1>
+                    <p>Cumulatively, over the 15-year period slightly over 40% of patients with schizophrenia showed 1 or more periods of recovery. And 30% are holding full time positions. Evidently, schizophrenic patients are able to live normal lives.</p>
+                </div>
+                </div>
+                </div>
+                  </div>
+                </div>
+              </section>
+         
+        </div>
+   
+        <nav>
+            <ul class="nav">
+                <li><a href="#acto-1">Abstract</a></li>
+                <li><a href="#acto-2">Hypothesis</a></li>
+                <li><a href="#acto-3">Results</a></li>
+             
+            </ul>
+        </nav>
+     </main>
+        </body>
+        
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Schizophrenia HeartCode 2022</div></div>
+                </div>
+            </div>
+        </footer>
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
+ 
